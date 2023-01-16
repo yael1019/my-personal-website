@@ -14,3 +14,38 @@ h2 {
     color: #f9c74f;
     font-size: 40px;
 }
+
+h2:first-of-type {
+    text-align: center;
+}
+
+h2:first-of-type ~ p {
+    text-align: center;
+    color: #f94144;
+    font-size: 25px;
+}
+
+h2:nth-of-type(2) {
+    text-align: center;
+}
+
+ul {
+    margin-left: 35%;
+    color: #f94144;
+    font-size: 20px;
+}
+
+li > ul {
+    margin-left: 1%;
+}
+
+footer {
+    text-align: center;
+    color: #43aa8b;
+    border-top: solid;
+}
+
+footer h4,
+p {
+    display: inline;
+}
