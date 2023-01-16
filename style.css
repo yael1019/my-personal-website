@@ -2,6 +2,7 @@ body {
     /* background-image: url('images/backgroundImage.jpg'); */
     background-image: linear-gradient(#FF5F6D, #FFC371);
     background-size: cover;
+    margin: 0;
 }
 
 h1 {
@@ -23,6 +24,7 @@ h2:first-of-type ~ p {
     text-align: center;
     color: #f94144;
     font-size: 25px;
+    display: block;
 }
 
 h2:nth-of-type(2) {
@@ -48,4 +50,28 @@ footer {
 footer h4,
 p {
     display: inline;
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #f9c74f;
+    height: 90px;
+}
+
+nav a {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    font-size: 1.4rem;
+    transition: all 0.2s;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #f94144;
 }
